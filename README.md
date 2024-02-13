@@ -2,7 +2,7 @@
 
 The *in silico* design and selection of guide RNA (gRNA) with high efficiency is an essential step for successful application of the Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR)/associated protein 9 (Cas9)-based gene editing technology. Several computational tools based on machine learning and/or deep learning algorithms have been developed to predict the editing activity of gRNAs. However, there is still a need of systematically and unbiasedly assessing the predictive performance and application scenarios for these CRISPR design tools, thus facilitating context-dependent selection of the right predicting tool for CRISPR-based gene editing applications. In this study, we conducted a thorough comparative analysis of six most-used in silico CRISPR/Cas9 on-target activity prediction tools using six benchmark datasets representing diverse cell types and species. The benchmarking results generate a practical guide for the pre-experimental tools selection of these prediction tools, providing valuable assistance to researchers in increasing the success of CRISPR experiments. 
 
-![image](https://github.com/HaoDK12/Benchmarking-CRISPR-on-tools/blob/main/img/Figure.png)
+![image](https://github.com/HaoDK12/Benchmarking-CRISPR-on-tools/blob/main/img/Figure.jpg)
 
 ## Requirements
 The scripts are written in Python 3.8.17 and run on Windows OS. The versions of Python packages which we used are, specifically:
