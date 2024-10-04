@@ -18,7 +18,7 @@ The scripts are written in Python 3.8.17 and run on Windows OS. The versions of 
 ```
 
 ## Contents
-  - ./Supplementary Data:  This folder cointains the collected datasets, the detailed prediction results of different tools, and the performence in test set of two XGBoost models with their tuned parameters.
+  - ./Supplementary Data:  This folder cointains the collected datasets, the detailed prediction results of different tools, and the performence of two XGBoost models in test set with their tuned parameters.
   - ./bin: custom Python/R scripts to train our two XGBoost models, and perform comparative analysis in detail.
 
 ## Citation
