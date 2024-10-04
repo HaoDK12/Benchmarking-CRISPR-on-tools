@@ -1,8 +1,9 @@
 # A comparative analysis of CRISPR-Cas9 editing efficiency prediction tools
 
-The *in silico* design and selection of guide RNA (gRNA) with high efficiency is an essential step for successful application of the Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR)/associated protein 9 (Cas9)-based gene editing technology. Several computational tools based on machine learning and/or deep learning algorithms have been developed to predict the editing activity of gRNAs. However, there is still a need of systematically and unbiasedly assessing the predictive performance and application scenarios for these CRISPR design tools, thus facilitating context-dependent selection of the right predicting tool for CRISPR-based gene editing applications. In this study, we conducted a thorough comparative analysis of six most-used in silico CRISPR/Cas9 on-target activity prediction tools using six benchmark datasets representing diverse cell types and species. The benchmarking results generate a practical guide for the pre-experimental tools selection of these prediction tools, providing valuable assistance to researchers in increasing the success of CRISPR experiments. 
+*In silico* design of CRISPR guide RNA (gRNA) with high efficiency and specificity is vital for successful application of the CRISPR-based gene editing technology. Although many machine and deep learning (MDL)-based tools have been developed to predict the editing activity of gRNAs, a systematic and unbiased evaluation of their predictive performance is still needed. Here, we provide a brief overview of the in silico tools for CRISPR design and assess the CRISPR datasets and statistical metrics used for evaluating model performance. We benchmark six representative CRISPR/Cas9 editing efficiency prediction tools across six CRISPR datasets covering five cell types and two species. The deep-learning model CRISPRon outperformed other models, exhibiting greater accuracy and better overall performance. We compile all CRISPR datasets and in silico prediction tools into a GUIDEnet resource web portal, aiming to facilitate and streamline CRISPR design. Furthermore, we summarize features affecting CRISPR gene editing activity, providing importance insights into model performance and the further development of more accurate CRISPR prediction models.
 
-![image](https://github.com/HaoDK12/Benchmarking-CRISPR-on-tools/blob/main/img/Figure01.png)
+
+![image](https://github.com/HaoDK12/Benchmarking-CRISPR-on-tools/blob/main/img/Figure 1.png)
 
 ## Requirements
 The scripts are written in Python 3.8.17 and run on Windows OS. The versions of Python packages which we used are, specifically:
@@ -17,8 +18,8 @@ The scripts are written in Python 3.8.17 and run on Windows OS. The versions of 
 ```
 
 ## Contents
-  - ./Supplementary Data:  Comparison of the prediction results of different tools on six test sets  in our analysis.
-  - ./Scripts: custom Python scripts to train our "seq-only model" and "full-features model".
+  - ./Supplementary Data:  This folder cointains the collected datasets, the detailed prediction results of different tools, and the performence in test set of two XGBoost models with their tuned parameters.
+  - ./bin: custom Python/R scripts to train our two XGBoost models, and perform comparative analysis in detail.
 
 ## Citation
 Hao Yuan, Chunping Song et al. A comparative analysis of CRISPR-Cas9 editing efficiency prediction tools. 2024 (Manuscript submitted)
