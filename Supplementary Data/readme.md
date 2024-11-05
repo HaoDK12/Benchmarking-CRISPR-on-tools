@@ -1,3 +1,19 @@
+.demo,
+h4 {
+    width: 80%;
+    margin: 0 auto 2em;
+}
+.demo {
+    border: 1px solid red;
+    padding: .5em;
+}
+h4 {
+    margin-bottom: .5em;
+}
+.inner-item {
+    border: 1px solid blue;
+}
+
 *Supplementary Data* 
 
 Supplementary Data 1. Lists of evaluated tools and independent test sets collected.\
