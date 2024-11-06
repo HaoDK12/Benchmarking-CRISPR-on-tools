@@ -119,7 +119,9 @@ for (i in c(1,2,4,5,6,9)) {
     if (col == "CRISPRon_score") {
       p_value <- "-"
     } else {
-      p_value <- psych::r.test(num_obs, correlation, cor(df$Actual.freq, df[["CRISPRon_score"]], method = "spearman"))$p
+      cor1 <- cor(df$Actual.freq, df[["CRISPRon_score"]], method = "spearman")
+      cor2 <- cor(df[[col]], df[["CRISPRon_score"]], method = "spearman")
+      p_value <- psych::r.test(num_obs, cor1, cor2, method = "spearman")$p
     }
     result_df["p_value", col] <- p_value
     result_df["correlation", col] <- correlation
@@ -152,7 +154,9 @@ for (i in c(3,7,8)) {
     if (col == "DeepHF_score") {
       p_value <- "-"
     } else {
-      p_value <- psych::r.test(num_obs, correlation, cor(df$Actual.freq, df[["DeepHF_score"]], method = "spearman"))$p
+      cor1 <- cor(df$Actual.freq, df[["DeepHF_score"]], method = "spearman")
+      cor2 <- cor(df[[col]], df[["DeepHF_score"]], method = "spearman")
+      p_value <- psych::r.test(num_obs, cor1, cor2, method = "spearman")$p
     }
     result_df["p_value", col] <- p_value
     result_df["correlation", col] <- correlation
