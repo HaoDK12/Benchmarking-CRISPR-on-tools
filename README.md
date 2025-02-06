@@ -27,7 +27,7 @@ Important: The test datasets used for benchmarking should be fully independent, 
 Rscript correlation_analysis.R <datafile.xlsx> <Reference_score> <compare_scores>
 #E.g. Rscript correlation_analysis.R "Supplementary_Data2.xlsx" "CRISPRon_score" "Deepspcas9_score,DeepHF_score,CRISPRdict_score,sgDesigner_score,Azimuth_score"
 ```
-##### Notes 
+#### Notes 
 * Inputs 
 1. An Excel file (e.g., Supplementary_Data2.xlsx) containing the gRNA data and prediction results from tools;
 2. A reference model name to compare against
@@ -41,7 +41,7 @@ Rscript correlation_analysis.R <datafile.xlsx> <Reference_score> <compare_scores
 Rscript ndcg_analysis.R <datafile.xlsx> "score1 score2 score3"
 #E.g. Rscript ndcg_analysis.R "Supplementary_Data3.xlsx" "CRISPRon_score,Deepspcas9_score,DeepHF_score,CRISPRdict_score,sgDesigner_score,Azimuth_score"
 ```
-##### Notes 
+#### Notes 
 * Inputs
 1. An Excel file (e.g., Supplementary_Data3.xlsx) containing the data that multiple gRNAs for single gene KO and various prediction results;
 2. A comma-separated list of model names to compare, matching the column names in the Excel file. 
