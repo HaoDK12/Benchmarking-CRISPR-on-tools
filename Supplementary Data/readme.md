@@ -3,8 +3,8 @@
 *Supplementary Data* 
 
 Supplementary Data 1. Lists of evaluated tools and independent test sets collected.\
-Supplementary Data 2. The raw prediction results of eight tools for correlation analysis. \
-Supplementary Data 3. The raw two Doench dataset for normalized discounted cumulative gain (nDCG) analysis.
+Supplementary Data_2. The raw prediction results of eight tools for correlation analysis. \
+Supplementary Data_3. The raw two Doench dataset for normalized discounted cumulative gain (nDCG) analysis.
 
 *Detail of Prediction of CRISPR/Cas9 on-target Editing Efficiency Tools* 
 
