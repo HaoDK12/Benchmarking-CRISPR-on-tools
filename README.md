@@ -44,10 +44,10 @@ Rscript ndcg_analysis.R <datafile.xlsx> "score1 score2 score3"
 #### Notes 
 * Inputs
 1. An Excel file (e.g., Supplementary_Data3.xlsx) containing the data that multiple gRNAs for single gene KO and various prediction results;
-2. A comma-separated list of model names to compare, matching the column names in the Excel file. 
+2. A comma-separated list of model names to compare, matching the column named in the Excel file. 
 * Outputs
-1. gene_ndcg_results.csv: Reports nDCG@10 and nDCG@20 values for each gene.
-2. combined_ndcg_plot.png: Combined boxplot comparing nDCG@10 and nDCG@20.
+1. gene_ndcg_results.csv: reports nDCG@10 and nDCG@20 values for each gene.
+2. combined_ndcg_plot.png: combined boxplot comparing nDCG@10 and nDCG@20.
 3. nemenyi_test_ndcg10.png and nemenyi_test_ndcg20.png: Nemenyi test results nDCG comaprison, respectively.
 
 ## Citation
