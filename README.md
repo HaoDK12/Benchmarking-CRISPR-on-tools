@@ -16,7 +16,7 @@ dplyr_1.0.7    openxlsx_4.2.4
 ## Contents
   - ./Supplementary Data: This folder contains details of the collected datasets, tools, and predictions from different models.
   - ./bin: Custom R scripts for performing in-depth comparative analyses.
-  - ./Training: The training datasets used for evaluating specific models.
+  - ./Training: The training datasets used for filtering out dataset to evaluate specific models.
 
 ## Evaluate the new datasets and tools
 The scripts ```correlation_analysis.R``` and ```ndcg_analysis.R``` in the ```/bin``` folder perform Spearman correlation analysis and nDCG calculation, along with corresponding statistical tests. These scripts are designed to evaluate new CRISPR gRNA activity prediction tools and compare their ranking performance with existing models. For detailed information, please refer to our study (see Citation below).
