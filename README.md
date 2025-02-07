@@ -31,10 +31,10 @@ Rscript correlation_analysis.R <datafile.xlsx> <Reference_score> <compare_scores
 * Inputs 
 1. An Excel file (e.g., Supplementary_Data2.xlsx) containing the gRNA data and prediction results from tools;
 2. A reference model name to compare against
-3. other model name list separated by comma, which names must match the column name in Excel file (requisite for Steiger's test). 
+3. Other model name list separated by comma, which names must match the column name in Excel file (requisite for Steiger's test). 
 * Outputs
 1. correlation_heatmap.png: showing the Spearman correlation coefficients between scores and observed frequencies; 
-2. cor_p_results.csv:A table provides Steiger’s test results, indicating whether differences between scores are statistically significant.
+2. cor_p_results.csv: a table provides Steiger’s test results, indicating whether differences between scores are statistically significant.
 
 #### Run ndcg_analysis.R
 ```
